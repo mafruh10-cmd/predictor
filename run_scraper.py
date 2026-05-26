@@ -18,6 +18,8 @@ import os
 # Make sure we can import from project root
 sys.path.insert(0, os.path.dirname(__file__))
 
+os.makedirs("data", exist_ok=True)
+
 import db
 from config import SEARCH_KEYWORDS_EN, START_DATE, END_DATE
 from extractor import extract_case
