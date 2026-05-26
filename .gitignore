@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+data/articles.db
+data/scraper.log
+data/cases.csv
+*.egg-info/
+.env
